@@ -111,7 +111,7 @@ def add_product_comment(request):
         product_id = request.POST.get('product_id')
         product_comment = request.POST.get('product_comment')
         parent_id = request.POST.get('parent_id')
-        print(product_id, product_comment, parent_id)
+        
         new_comment = ProductComment(product_id=product_id, parent_id=parent_id, text=product_comment,
                                      user_id=request.user.id)
         new_comment.save()
