@@ -21,6 +21,7 @@ This is an e-commerce website built using Python's Django framework for the back
 - HTML/CSS
 - JavaScript
 - jQuery
+- Bootstrap
 
 ### Database
 - SQLite
